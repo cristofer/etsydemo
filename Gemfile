@@ -13,6 +13,10 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass', '~> 3.2.0'
 #Paperclip
 gem 'paperclip', '~>4.2'
+#paperclip con dropbox
+gem "paperclip-dropbox", ">= 1.1.7"
+#Figaro para proteger los datos privados en los archivos
+gem "figaro"
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
