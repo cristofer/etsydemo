@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
+#Agregado segun curso
+ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+##Al usar las lineas de produccion y desarrollo se comenta sqlite3 aca
+#gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 #Bootstrarp
@@ -41,3 +44,13 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+###Separando para produccion/desarrollo/testing
+
+group :production do
+    gem 'pg'
+    gem 'rails_12factor'
+end
+
+group :development, :test do
+    gem 'sqlite3'
+end
