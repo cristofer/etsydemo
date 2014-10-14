@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 #Agregado segun curso
 ruby "1.9.3"
 
+#Update Rubygems
+gem "rubygems-update", "~>2.1.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
@@ -17,6 +19,8 @@ gem 'paperclip', '~>4.2'
 gem "paperclip-dropbox", ">= 1.1.7"
 #Figaro para proteger los datos privados en los archivos
 gem "figaro"
+#Devise para administracion de usuarios
+gem "devise"
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
