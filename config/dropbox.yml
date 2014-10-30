@@ -1,4 +1,5 @@
 app_key: "in2bx1r7myiba8d"
+#Ruby tags because paperclip (paperclip-dropbox docs)
 app_secret: <%= ENV["app_secret"] %>
 access_token: "570rkphhkwegv5jb"
 access_token_secret: <%= ENV["access_token_secret"] %>
