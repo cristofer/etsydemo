@@ -21,6 +21,8 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 #Devise para administracion de usuarios
 gem "devise"
+#Stripe = credit card payments
+gem 'stripe', '~> 1.16.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
